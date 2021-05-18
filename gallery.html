@@ -3,8 +3,31 @@
     <title>Gallery Page Layout</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="gallery.css" rel="stylesheet" type="text/css">
-    <link href="starter.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!--Gallery css-->
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -14,9 +37,9 @@
 </div>
 
 <div class="topnav">
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
+    <a href="index.html">Home</a>
+    <a href="#">Products</a>
+    <a href="about_us.html">Link</a>
 </div>
 
 <div class="row">
@@ -58,4 +81,3 @@
     <p>Footer</p>
 </div>
 </body>
-</html>
