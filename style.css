@@ -45,23 +45,23 @@ body {
                 0 0 4px #fff,
                 0 0 11px #fff,
                 0 0 19px #fff,
-                0 0 40px #0fa,
-                0 0 80px #0fa,
-                0 0 90px #0fa,
-                0 0 100px #0fa,
-                0 0 150px #0fa;
+                0 0 40px #d0f,
+                0 0 80px #d0f,
+                0 0 90px #d0f,
+                0 0 100px #d0f,
+                0 0 150px #d0f;
     }
     0% {
         /* Smaller blur radius */
         text-shadow:
                 0 0 2px #fff,
                 0 0 4px #fff,
-                0 0 6px #fff,
-                0 0 10px #061,
-                0 0 45px #061,
-                0 0 55px #061,
-                0 0 70px #061,
-                0 0 80px #061;
+                0 0 6px #d0f,
+                0 0 10px #d0f,
+                0 0 45px #d0f,
+                0 0 55px #d0f,
+                0 0 70px #d0f,
+                0 0 80px #d0f;
     }
 }
 /* Create three unequal columns that float next to each other */
@@ -73,6 +73,7 @@ body {
 /* Left and right column */
 .column.side {
     width: 20%;
+    word-wrap: break-word;
 }
 
 /* Middle column */
