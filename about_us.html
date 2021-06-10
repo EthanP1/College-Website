@@ -7,6 +7,7 @@
 
     <!--Form css-->
     <style>
+        /* Style for form*/
         input[type=text], select, textarea {
             width: 100%;
             padding: 12px;
@@ -37,17 +38,20 @@
 </head>
 <body>
 
+<!-- header-->
 <div class="header">
     <h1>The Sandwich Bus</h1>
     <p>Convenient sandwiches.</p>
 </div>
 
+<!-- Navigation bar-->
 <div class="topnav">
     <a href="index.html">Home</a>
     <a href="gallery.html">Products</a>
     <a href="#">Contact Us</a>
 </div>
 
+<!-- Left column-->
 <div class="row">
     <div class="column side">
         <h2>Side</h2>
@@ -56,8 +60,7 @@
 
 
     <script>
-        function conformationPrompt()
-        {
+        function conformationPrompt() {
             alert("Thank you for your order!")
         }
     </script>
@@ -76,16 +79,18 @@
             </select>
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            <input type="submit" onclick="conformationPrompt()">
+            <input onclick="conformationPrompt()" type="submit">
         </form>
     </div>
 
+    <!-- Right column-->
     <div class="column side">
         <h2>Side</h2>
         <p>Cat ipsum dolor sit amet, shred all toilet paper and spread around the house scream for no reason..</p>
     </div>
 </div>
 
+<!-- footer-->
 <div class="footer">
     <p>Footer</p>
 </div>

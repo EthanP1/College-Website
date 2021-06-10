@@ -7,6 +7,7 @@
 
     <!--Gallery css-->
     <style>
+        /* Style for gallery*/
         div.gallery {
             margin: 5px;
             border: 1px solid #ccc;
@@ -31,64 +32,77 @@
 </head>
 <body>
 
+<!-- header-->
 <div class="header">
     <h1>The Sandwich Bus</h1>
     <p>Convenient sandwiches.</p>
 </div>
 
+<!-- Navigation bar-->
 <div class="topnav">
     <a href="index.html">Home</a>
     <a href="#">Products</a>
     <a href="about_us.html">Link</a>
 </div>
 
+<!-- Left column-->
 <div class="row">
     <div class="column side">
         <h2>Side</h2>
         <p>Cat ipsum dolor sit amet, lick human with sandpaper tongue my left donut is missing..</p>
     </div>
 
+    <!-- JavaScript-->
+    <script>
+        /* Makes images bigger*/
+        function makeBig(img) {
+            img.style.width = "300px"
+            img.style.height = "500px"
+        }
 
-<script>
-    function makeBig(img) {
-        img.style.width = "300px"
-        img.style.height = "500px"
-    }
-function makeSmall(img){
-    img.style.width = "178px"
-    img.style.height = "267px"
-}
-</script>
-
+        /* returns image to original size*/
+        function makeSmall(img) {
+            img.style.width = "178px"
+            img.style.height = "267px"
+        }
+    </script>
+    <!-- Middle columns-->
     <div class="column middle">
         <h2>Main Content</h2>
         <div class="gallery">
-            <img alt="Harry Potter" height="640" src="Harry01.jpg" width="427" onmouseover="makeBig(this)" onmouseout="makeSmall(this)">
+            <img alt="Harry Potter" height="640" onmouseout="makeSmall(this)" onmouseover="makeBig(this)" src="Harry01.jpg"
+                 width="427">
+            <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <!-- Images-->
+        <div class="gallery">
+            <img alt="Harry Potter" height="640" onmouseout="makeSmall(this)" onmouseover="makeBig(this)" src="Harry01.jpg"
+                 width="427">
             <div class="desc">Add a description of the image here</div>
         </div>
 
         <div class="gallery">
-            <img alt="Harry Potter" height="640" src="Harry01.jpg" width="427" onmouseover="makeBig(this)" onmouseout="makeSmall(this)">
+            <img alt="Harry Potter" height="640" onmouseout="makeSmall(this)" onmouseover="makeBig(this)" src="Harry01.jpg"
+                 width="427">
             <div class="desc">Add a description of the image here</div>
         </div>
 
         <div class="gallery">
-            <img alt="Harry Potter" height="640" src="Harry01.jpg" width="427" onmouseover="makeBig(this)" onmouseout="makeSmall(this)">
-            <div class="desc">Add a description of the image here</div>
-        </div>
-
-        <div class="gallery">
-            <img alt="Harry Potter" height="640" src="Harry01.jpg" width="427" onmouseover="makeBig(this)" onmouseout="makeSmall(this)">
+            <img alt="Harry Potter" height="640" onmouseout="makeSmall(this)" onmouseover="makeBig(this)" src="Harry01.jpg"
+                 width="427">
             <div class="desc">Add a description of the image here</div>
         </div>
     </div>
 
+    <!-- Right column-->
     <div class="column side">
         <h2>Side</h2>
         <p>Cat ipsum dolor sit amet, plan your travel. Destroy couch attack like a vicious monster..</p>
     </div>
 </div>
 
+<!-- footer-->
 <div class="footer">
     <p>Footer</p>
 </div>
