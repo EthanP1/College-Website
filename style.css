@@ -99,5 +99,6 @@ body {
 .footer {
     display: flex;
     background-color: #ffd1dc;
+    justify-content: space-around;
     padding: 10px;
 }
