@@ -10,7 +10,7 @@ body {
 
 /* Style the header */
 .header {
-    background-color: #ffd1dc ;
+    background-color: #ffd1dc;
     padding: 20px;
     text-align: center;
 }
@@ -33,37 +33,37 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-/*    background-color: #ddd;
-    color: black;*/
+    /*    background-color: #ddd;
+        color: black;*/
     animation: pulsate 2.5s infinite alternate;
 }
+
 /*Neon Text*/
 @keyframes pulsate {
     100% {
         /* Larger blur radius */
-        text-shadow:
-                0 0 4px #fff,
-                0 0 11px #fff,
-                0 0 19px #fff,
-                0 0 40px #d0f,
-                0 0 80px #d0f,
-                0 0 90px #d0f,
-                0 0 100px #d0f,
-                0 0 150px #d0f;
+        text-shadow: 0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #d0f,
+        0 0 80px #d0f,
+        0 0 90px #d0f,
+        0 0 100px #d0f,
+        0 0 150px #d0f;
     }
     0% {
         /* Smaller blur radius */
-        text-shadow:
-                0 0 2px #fff,
-                0 0 4px #fff,
-                0 0 6px #d0f,
-                0 0 10px #d0f,
-                0 0 45px #d0f,
-                0 0 55px #d0f,
-                0 0 70px #d0f,
-                0 0 80px #d0f;
+        text-shadow: 0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #d0f,
+        0 0 10px #d0f,
+        0 0 45px #d0f,
+        0 0 55px #d0f,
+        0 0 70px #d0f,
+        0 0 80px #d0f;
     }
 }
+
 /* Create three unequal columns that float next to each other */
 .column {
     float: left;
@@ -97,7 +97,7 @@ body {
 
 /* Style the footer */
 .footer {
-    background-color: #ffd1dc ;
+    background-color: #ffd1dc;
     padding: 10px;
     text-align: center;
 }
