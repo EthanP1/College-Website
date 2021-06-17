@@ -97,7 +97,7 @@ body {
 
 /* Style the footer */
 .footer {
+    display: flex;
     background-color: #ffd1dc;
     padding: 10px;
-    text-align: center;
 }
